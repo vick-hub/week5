@@ -1,6 +1,10 @@
 import random
 
-
+"""
+Notes:
+- you have reverted to untidy code! ensure you have main() and 'if __name__ == "__main__": sys.exit(main())'
+- stick to good practice!
+"""
 l1 = random.sample(range(0, 100), 100)
 print(l1)
 new_l = []
