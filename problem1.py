@@ -21,6 +21,7 @@ def main():
     print(f"cum_prod: {sum(l4)}")
 
     l5 = []
+    # fixme: this is only evens; you need to include odds
     for t, k in zip(l1, l2):
         if t % 2 == 0 and k % 2 == 0:
             r = t + k

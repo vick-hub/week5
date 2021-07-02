@@ -2,6 +2,11 @@ import os
 import sys
 import random
 
+"""
+Notes:
+- Very good.
+- Ask the user to only enter one letter 'r', 'p' or 's' and 'x' for exit
+"""
 
 def main():
     print(""""Rock, paper, scissors. This is a two-person game where both plays count down from 3
