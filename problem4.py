@@ -2,6 +2,11 @@ import os
 import sys
 import random
 
+"""
+Notes:
+- Great job!
+- You're missing the translation bit.
+"""
 
 def main():
     alphabet = list('ACGT')

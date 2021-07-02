@@ -33,6 +33,7 @@ def main():
     new_l2 = []
     i = 0
     j = 0
+    # fixme: no need for 'and' since l1 and l2 have the same length
     while i <= len(l1)-1 and j <= len(l2)-1:
         if i % 2 == 0 and j % 2 == 0:
             t = l1[i] + l2[j]

@@ -10,7 +10,7 @@ Notes:
 
 
 def main():
-    l1 = random.sample(range(0, 100), 100)
+    l1 = random.sample(range(0, 100), 100) # good
     print(l1)
     new_l = []
     add = 0
@@ -29,6 +29,7 @@ def main():
     t = 2
     k = 4
     j = 0
+    # very good
     for i in range(len(l1)-4):
         a = l1[j] + l1[t] + l1[k]
         t += 1
